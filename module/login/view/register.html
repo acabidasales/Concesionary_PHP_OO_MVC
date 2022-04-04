@@ -1,0 +1,41 @@
+<header>
+    <script src="module/login/model/controller_register.js"></script>
+</header>
+
+<body style="background-color:#7a7a7a;">
+    <br><br><br><br><br><br>
+    <div id="center" style="margin-left: 40%;margin-right: 40%;">
+        <h2 style="text-align: center;">Register</h2>
+        <form id="register__form" method="post">
+            <div class="form__content">
+                <div class="form__input">
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" id="username" name="username" placeholder="Enter Username" style="margin-left: 50px;">
+                    <font color="red">
+                        <span id="error_username" class="error"></span>
+                    </font>
+                </div>
+                <div class="form__input">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" id="email" name="email" placeholder="Enter Email" style="margin-left: 82px;">
+                    <font color="red">
+                        <span id="error_email" class="error"></span>
+                    </font>
+                </div>
+                <div class="form__input">
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" style="margin-left: 54px;">
+                    <font color="red">
+                        <span id="error_password" class="error"></span>
+                    </font>
+                </div>
+            </div>
+            <div id="forgot" style="text-align: center;">
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+            <div class="button_container" style="text-align: center;">
+                <input class="button" id="register" type="button" value="Enter" />
+            </div>
+        </form>
+    </div>
+</body>
